@@ -19,12 +19,14 @@ tcp_header += b'\xcf\xf6\x00\x00' # Checksum / Urgent Pointer (YOU MUST CHECK ON
 packet = ip_header + tcp_header
 s.sendto(packet, ('91.142.214.181', 0))
 
-# Created by 8wat 
-#
-#  ▄▀▀▄    ▄▀▀▄  ▄▀▀█▄   ▄▀▀▀█▀▀▄ 
-# █   █    ▐  █ ▐ ▄▀ ▀▄ █    █  ▐ 
-# ▐  █        █   █▄▄▄█ ▐   █     
-#   █   ▄    █   ▄▀   █    █      
-#    ▀▄▀ ▀▄ ▄▀  █   ▄▀   ▄▀       
-#          ▀    ▐   ▐   █         
-#                       ▐         
+"""
+Created by 8wat 
+
+  ▄▀▀▄    ▄▀▀▄  ▄▀▀█▄   ▄▀▀▀█▀▀▄ 
+ █   █    ▐  █ ▐ ▄▀ ▀▄ █    █  ▐ 
+ ▐  █        █   █▄▄▄█ ▐   █     
+   █   ▄    █   ▄▀   █    █      
+    ▀▄▀ ▀▄ ▄▀  █   ▄▀   ▄▀       
+          ▀    ▐   ▐   █         
+                       ▐         
+"""
